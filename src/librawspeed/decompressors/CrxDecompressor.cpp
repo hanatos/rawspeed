@@ -26,8 +26,8 @@
 */
 
 #include "decompressors/CrxDecompressor.h" // For CrxDecompressor
-#include "common/Array2DRef.h"             // for Array2DRef
-#include "common/Point.h"                  // for iPoint2D, iPoint2D::area_type
+#include "adt/Array2DRef.h"                // for Array2DRef
+#include "adt/Point.h"                     // for iPoint2D, iPoint2D::area_type
 #include "common/RawImage.h"               // for RawImage, RawImageData
 #include "decoders/Cr3Decoder.h"           // for Cr3Decoder
 #include "decoders/RawDecoderException.h"  // for ThrowRDE
